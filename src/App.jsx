@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 //eslint-disable-next-line react/prop-types
 import "./App.css";
 import { Component } from "react";
@@ -83,7 +84,7 @@ render(){
   );
 }
 }
-//eslint(react-refresh/only-export-components)
+// eslint-disable-next-line react-refresh/only-export-components
 function Counter2(){
   const [count, setCount] = useState(0);
   return(
@@ -95,7 +96,7 @@ function Counter2(){
     </>
   );
 }
-
+ // eslint-disable-next-line react/prop-types
 class Infromation extends Component{
   render(){
     return(
