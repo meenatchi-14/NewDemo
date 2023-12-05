@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#root{
+  border: 2px solid black;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+ border-radius: 20px;
+ text-align: center;
+}
+div{
+  color: rgb(66, 57, 231);
+ font-weight: bolder;
+}
+span{
+  color: rgb(215, 14, 14);
+}
